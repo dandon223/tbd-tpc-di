@@ -1,3 +1,3 @@
 select GENDER
-from {{ ref('prospect') }} 
+from {{ ref('syndicated_prospect') }} 
 where GENDER is null
