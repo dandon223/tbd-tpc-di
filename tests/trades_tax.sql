@@ -1,4 +1,4 @@
 select 
     tax
 from {{ ref('trades') }} 
-having tax < 0
+where tax < 0
